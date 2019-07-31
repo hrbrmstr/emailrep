@@ -14,6 +14,10 @@ phishing kits, phishing emails, spam lists, open mail relays, domain age and
 reputation, deliverability, and more to predict the risk of an email address.
 Tools are provided to gather reputation information for emails.
 }
+\references{
+\url{https://emailrep.io/}; \url{https://github.com/sublime-security/emailrep.io};
+\url{https://emailrep.io/docs/#emailrep-alpha-api}
+}
 \seealso{
 Useful links:
 \itemize{

@@ -17,3 +17,7 @@ Get email reputation
 \examples{
 email_rep("bill@microsoft.com")
 }
+\references{
+\url{https://emailrep.io/}; \url{https://github.com/sublime-security/emailrep.io};
+\url{https://emailrep.io/docs/#emailrep-alpha-api}
+}

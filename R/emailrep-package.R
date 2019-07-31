@@ -14,4 +14,6 @@
 #' @author Bob Rudis (bob@@rud.is)
 #' @import httr
 #' @importFrom jsonlite fromJSON
+#' @references <https://emailrep.io/>; <https://github.com/sublime-security/emailrep.io>;
+#'             <https://emailrep.io/docs/#emailrep-alpha-api>
 "_PACKAGE"

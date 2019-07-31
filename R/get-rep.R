@@ -2,6 +2,8 @@
 #'
 #' @param email the email to get rep for
 #' @param ... passed on to [httr::GET()]
+#' @references <https://emailrep.io/>; <https://github.com/sublime-security/emailrep.io>;
+#'             <https://emailrep.io/docs/#emailrep-alpha-api>
 #' @export
 #' @examples
 #' email_rep("bill@@microsoft.com")

@@ -18,13 +18,18 @@ Check Email Address Reputation Against the ‘EmailRep’ API
 
 ## Description
 
-EmailRep is a system of crawlers, scanners and enrichment services that
-collects data on email addresses, domains, and internet personas.
-EmailRep uses hundreds of data points from social media profiles,
-professional networking sites, dark web credential leaks, data breaches,
-phishing kits, phishing emails, spam lists, open mail relays, domain age
-and reputation, deliverability, and more to predict the risk of an email
-address. Tools are provided to gather reputation information for emails.
+EmailRep (<https://emailrep.io/>) is a system of crawlers, scanners and
+enrichment services that collects data on email addresses, domains, and
+internet personas. EmailRep uses hundreds of data points from social
+media profiles, professional networking sites, dark web credential
+leaks, data breaches, phishing kits, phishing emails, spam lists, open
+mail relays, domain age and reputation, deliverability, and more to
+predict the risk of an email address. Tools are provided to gather
+reputation information for emails.
+
+  - <https://emailrep.io/>
+  - <https://github.com/sublime-security/emailrep.io>
+  - <https://emailrep.io/docs/#emailrep-alpha-api>
 
 ## What’s Inside The Tin
 
@@ -35,11 +40,17 @@ The following functions are implemented:
 ## Installation
 
 ``` r
+install.packages("emailrep", repos = "https://cinc.rud.is")
+# or
 remotes::install_git("https://git.rud.is/hrbrmstr/emailrep.git")
 # or
 remotes::install_git("https://git.sr.ht/~hrbrmstr/emailrep")
 # or
 remotes::install_gitlab("hrbrmstr/emailrep")
+# or
+remotes::install_bitbucket("hrbrmstr/emailrep")
+# or
+remotes::install_github("hrbrmstr/emailrep")
 ```
 
 NOTE: To use the ‘remotes’ install options you will need to have the
@@ -84,15 +95,15 @@ str( email_rep("bill@microsoft.com"), 2 )
 ##   ..$ spoofable                 : logi FALSE
 ##   ..$ spf_strict                : logi TRUE
 ##   ..$ dmarc_enforced            : logi TRUE
-##   ..$ profiles                  : chr [1:8] "spotify" "vimeo" "pinterest" "twitter" ...
+##   ..$ profiles                  : chr [1:8] "linkedin" "angellist" "spotify" "flickr" ...
 ```
 
 ## emailrep Metrics
 
-| Lang | \# Files | (%) | LoC |  (%) | Blank lines | (%) | \# Lines |  (%) |
-| :--- | -------: | --: | --: | ---: | ----------: | --: | -------: | ---: |
-| R    |        4 | 0.8 |  22 | 0.71 |           7 | 0.3 |       23 | 0.44 |
-| Rmd  |        1 | 0.2 |   9 | 0.29 |          16 | 0.7 |       29 | 0.56 |
+| Lang | \# Files | (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
+| :--- | -------: | --: | --: | ---: | ----------: | ---: | -------: | ---: |
+| R    |        4 | 0.8 |  22 | 0.71 |           7 | 0.29 |       27 | 0.46 |
+| Rmd  |        1 | 0.2 |   9 | 0.29 |          17 | 0.71 |       32 | 0.54 |
 
 ## Code of Conduct
 
