@@ -1,12 +1,18 @@
 Package: emailrep
 Type: Package
-Title: emailrep title goes here otherwise CRAN checks fail
+Title: Check Email Address Reputation Against the 'EmailRep' API
 Version: 0.1.0
 Date: 2019-07-30
 Authors@R: c( person("Bob", "Rudis", email = "bob@rud.is", role =
         c("aut", "cre"), comment = c(ORCID = "0000-0001-5670-2640")) )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: EmailRep is a system of crawlers, scanners and enrichment services 
+    that collects data on email addresses, domains, and internet personas.
+    EmailRep uses hundreds of data points from social media profiles, 
+    professional networking sites, dark web credential leaks, data breaches, 
+    phishing kits, phishing emails, spam lists, open mail relays, domain age and 
+    reputation, deliverability, and more to predict the risk of an email address.
+    Tools are provided to gather reputation information for emails.
 URL: https://gitlab.com/hrbrmstr/emailrep
 BugReports: https://gitlab.com/hrbrmstr/emailrep/issues
 Encoding: UTF-8

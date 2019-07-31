@@ -5,7 +5,7 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 [![Signed
 by](https://img.shields.io/badge/Keybase-Verified-brightgreen.svg)](https://keybase.io/hrbrmstr)
 ![Signed commit
-%](https://img.shields.io/badge/Signed_Commits-50.0%25-lightgrey.svg)
+%](https://img.shields.io/badge/Signed_Commits-100%25-lightgrey.svg)
 [![Linux build
 Status](https://travis-ci.org/hrbrmstr/emailrep.svg?branch=master)](https://travis-ci.org/hrbrmstr/emailrep)  
 ![Minimal R
@@ -14,11 +14,17 @@ Version](https://img.shields.io/badge/R%3E%3D-3.2.0-blue.svg)
 
 # emailrep
 
-emailrep title goes here otherwise CRAN checks fail
+Check Email Address Reputation Against the ‘EmailRep’ API
 
 ## Description
 
-A good description goes here otherwise CRAN checks fail.
+EmailRep is a system of crawlers, scanners and enrichment services that
+collects data on email addresses, domains, and internet personas.
+EmailRep uses hundreds of data points from social media profiles,
+professional networking sites, dark web credential leaks, data breaches,
+phishing kits, phishing emails, spam lists, open mail relays, domain age
+and reputation, deliverability, and more to predict the risk of an email
+address. Tools are provided to gather reputation information for emails.
 
 ## What’s Inside The Tin
 
@@ -85,8 +91,8 @@ str( email_rep("bill@microsoft.com"), 2 )
 
 | Lang | \# Files | (%) | LoC |  (%) | Blank lines | (%) | \# Lines |  (%) |
 | :--- | -------: | --: | --: | ---: | ----------: | --: | -------: | ---: |
-| R    |        4 | 0.8 |  22 | 0.71 |           7 | 0.3 |       18 | 0.38 |
-| Rmd  |        1 | 0.2 |   9 | 0.29 |          16 | 0.7 |       29 | 0.62 |
+| R    |        4 | 0.8 |  22 | 0.71 |           7 | 0.3 |       23 | 0.44 |
+| Rmd  |        1 | 0.2 |   9 | 0.29 |          16 | 0.7 |       29 | 0.56 |
 
 ## Code of Conduct
 
